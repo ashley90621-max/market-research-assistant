@@ -40,3 +40,11 @@ pip install - requirements.txt
 streamlit run streamlit_assignment.py
 ```
 3. Enter your OpenAI API key in the sidebar and start researching
+
+## ⚠️ Model Compatibility Note
+
+This app was built using `gpt-5.2` via the OpenAI API. As OpenAI regularly updates 
+available models, if you encounter model errors, replace `gpt-5.2` in the selectbox 
+with a currently available model such as `gpt-5.5` or `gpt-5.2-chat-latest`.
+
+Check the latest available models at: https://platform.openai.com/docs/models
