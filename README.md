@@ -15,7 +15,7 @@ An AI-powered market research assistant built on a **RAG (Retrieval-Augmented Ge
 
 1. **Step 1 — Intelligent Classification**: LLM rewrites and validates the user's keyword into a formal economic industry term, rejecting abstract or invalid inputs
 2. **Step 2 — Retrieval**: LangChain `WikipediaRetriever` fetches top-5 relevant documents (2,000 chars each) as grounding context
-3. **Step 3 — Generation**: GPT synthesizes retrieved context into a structured within 500-word industry report with fixed sections (Overview / Key Insights / Summary)
+3. **Step 3 — Generation**: GPT synthesizes retrieved context into a structured (within 500 words) industry report with fixed sections (Overview / Key Insights / Summary)
 
 ## Key Features
 
