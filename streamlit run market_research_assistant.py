@@ -72,7 +72,7 @@ if step1_clicked:
 
     # Create LLM instance for query rewriting (keyword → industry term)
     llm = ChatOpenAI(
-        model="gpt-5.2",
+        model=selected_model,
         temperature=0,
         openai_api_key=api_key
     )
