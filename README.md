@@ -21,7 +21,7 @@ An AI-powered market research assistant built on a **RAG (Retrieval-Augmented Ge
 
 - RAG pipeline: Wikipedia-grounded generation prevents hallucination
 - LLM semantic validation before retrieval (filters invalid inputs)
-- Structured report with enforced word limit (480 words)
+- Structured report with enforced word limit (<500 words)
 - Secure API key input — user-provided at runtime, never stored in code
 - Session state management across multi-step workflow
 
@@ -33,7 +33,7 @@ The OpenAI API key is entered by the user at runtime via a password-masked sideb
 
 1. Clone the repo and install dependencies:
 ```bash
-pip install - requirements.txt
+pip install - r requirements.txt
 ```
 2. Run the app:
 ```bash
